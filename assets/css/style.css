@@ -12093,11 +12093,4 @@ footer .footerContainer .socialIcon img {
 }
 footer button {
   background-color: #141414;
-}
-
-@media screen and (max-width: 990px) {
-  .socialIcon a {
-    display: inline;
-    width: 15%;
-  }
 }/*# sourceMappingURL=style.css.map */
