@@ -1,0 +1,82 @@
+@import "./bootstrap-override";
+
+body {
+  font-family: "Noto Sans", serif;
+}
+
+nav {
+  background-color: #141414;
+  .netflixLogo {
+    width: 5.25%;
+  }
+  .kidsIcon {
+    width: 20%;
+  }
+  .endNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+article {
+  background-color: #141414;
+  .upArticle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .tvShows {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .miniBtn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 50%;
+
+        background-color: #141414;
+        #justifyImg {
+          width: 100%;
+        }
+        #gridImg {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .first-line {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+footer {
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  .footerContainer {
+    width: 60%;
+    .socialIcon {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      a {
+        display: inline;
+        width: 5%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+  button {
+    background-color: #141414;
+  }
+}
